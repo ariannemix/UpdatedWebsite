@@ -1,0 +1,13 @@
+@import "./theme.scss";
+@import "./mixins.scss";
+@import "./navbar.scss";
+@import "./landingpage.scss";
+@import "./about.scss";
+@import "./contact.scss";
+@import "./resume.scss";
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  background-color: $off-white;
+}
