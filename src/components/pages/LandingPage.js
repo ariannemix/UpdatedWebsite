@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Navbar from "../Navbar"
 import certPlus from "../../Images/certificate-plus.png"
 import certReact from "../../Images/certificate-react.png"
+import Footer from "../Footer";
 
 const LandingPage = () => {
     const skills = ["Python", "Javascript", "React", "Flask", "SQLAlchemy", "Postgres",  "HTML", "Sass", "CSS"]
@@ -48,6 +49,7 @@ const LandingPage = () => {
             <a href="https://www.shecodes.io/certificates/a3df057faacfe7384b2a1a137528893d" target="/"><img src={certPlus} alt="certificate" /></a>
             <a href="https://www.shecodes.io/certificates/a14db670c469f907cea2cd288b7d4403" target="/"><img src={certReact} alt="certificate" /></a>          
         </div>
+        <Footer />
     </div>)
 }
 

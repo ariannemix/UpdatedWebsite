@@ -1,3 +1,4 @@
+import Footer from "../Footer"
 import Navbar from "../Navbar"
 
 const Contact = () => {
@@ -9,6 +10,7 @@ const Contact = () => {
             <div>-or-</div>
             <div>Find me on <a href="https://www.linkedin.com/in/arianne-mix-168619220/" target="/">linkedin</a></div>
         </div>
+        <Footer />
     </div>)
 }
 

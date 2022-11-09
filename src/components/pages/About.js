@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 import picture from "../../Images/profile_pic.png";
 
 const About = () => {
@@ -26,6 +27,7 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>)
 }
 

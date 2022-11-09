@@ -1,7 +1,6 @@
 import Navbar from "../Navbar"
 import pic from "../../Images/profile_pic.png";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSquare } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../Footer";
 
 const Resume = () => {
     const feSkills = ["Javascript", "React", "HTML", "Sass", "Firebase"];
@@ -62,6 +61,7 @@ const Resume = () => {
                 
             </div>
         </div>
+        <Footer />
     </div>)
 }
 
