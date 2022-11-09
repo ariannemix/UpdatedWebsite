@@ -1,12 +1,13 @@
 .about {
   .about-hero { 
     @include hero();
-    height: 85vh;
+    height: 90vh;
     .about-info {
       display: flex;
       justify-content: center;
       width: 100%;
-      height: 85vh;
+      padding-top: 50px;
+      // height: 70vh;
       align-items: center;
 
       .personal-image {
@@ -41,7 +42,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .about {
     .about-hero {
       height: auto;
