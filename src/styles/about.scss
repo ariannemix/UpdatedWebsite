@@ -52,7 +52,7 @@
         .personal-image {
           img {
             max-width: 40vw;
-            margin-top: 90px;
+            margin-top: 20px;
           }
         }
         .personal-info {
@@ -60,11 +60,11 @@
           max-width: 80vw;
           padding-left: 0;
           h4 {
-            position: absolute;
-            top: 60px;
-            left: 32vw;
+            font-size: 30px;
           }
-         
+          p {
+            font-size: 14px;
+          }
         }
       }
     }

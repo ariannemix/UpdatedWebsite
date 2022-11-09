@@ -73,3 +73,34 @@
     //   box-shadow: $box-shadow;
     // }
   }
+
+@media (max-width: 500px) {
+  .resume {
+    .hero {
+      height: 40vh;
+      img {
+        height: 60px;
+        width: 60px;
+        margin: 2px;
+      }
+      span{
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 19px;
+        margin: 8px;
+        padding: 8px;
+      }
+    }
+    .resume-content {
+      margin: 0 20px;
+      font-size: 12px;
+      h4 {
+        font-size: 20px;
+      }
+      .skills-lists {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

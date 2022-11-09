@@ -2,12 +2,10 @@
   width: 100%;
   color: $main-dark;
   font-size: 18px;
-  // box-shadow: 1px 5px 10px rgb(0, 0, 0, .5);
   padding: 0;
 
   .main-navbar {
     display: flex;
-    // background-color: pink;
     align-items: center;
     justify-content: center;
 
@@ -15,8 +13,7 @@
       text-decoration: none;
       transition: background-color ease-in-out .3s, opacity .5s;
       padding: 15px 10px;
-      // border-radius: 4px;
-      // height: 33px;
+
       text-align: center;
       margin: 0;
       border: none;
